@@ -1,0 +1,16 @@
+package webtest;
+
+public class Test1234 {
+private static URLAndSession uas = new URLAndSession();
+	
+	static {
+		System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chromedriver.exe");
+	}
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

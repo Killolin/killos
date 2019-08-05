@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;xioaminmin&apos;" deleteContents="true" description="Delete resource &apos;xioaminmin&apos;" element1="/xioaminmin" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1526132909958"/>
+</session>

@@ -1,0 +1,9 @@
+http://selenium-release.storage.googleapis.com/index.html?path=3.9/
+
+下载：selenium-server-standalone-3.9.1.jar  
+         selenium-server-3.9.1.zip
+
+工程架包导入：
+selenium-3.9.1-nodeps.jar
+selenium-3.9.1-nodeps-sources.jar
+selenium-server-standalone-3.9.1.jar

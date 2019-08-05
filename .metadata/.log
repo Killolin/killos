@@ -1,0 +1,33 @@
+!SESSION 2018-05-12 21:47:31.237 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-12 21:48:02.063
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2018-05-14 22:49:29.639 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-14 22:49:34.537
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2019-08-05 20:39:57.419 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-08-05 20:41:52.835
+!MESSAGE Invalid ZIP archive: D:\Workspaces\lib\selenium-3.9.1-nodeps.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-08-05 20:41:52.886
+!MESSAGE Invalid ZIP archive: D:\Workspaces\lib\selenium-3.9.1-nodeps-sources.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-08-05 20:41:52.887
+!MESSAGE Invalid ZIP archive: D:\Workspaces\lib\selenium-server-standalone-3.9.1.jar

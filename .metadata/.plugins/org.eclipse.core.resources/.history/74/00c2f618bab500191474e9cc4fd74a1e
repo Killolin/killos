@@ -1,0 +1,12 @@
+package webtest;
+
+import org.openqa.selenium.WebDriver;
+
+public class ContinueCase {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriver driver = new MyChromeDriver("", "");
+	}
+
+}

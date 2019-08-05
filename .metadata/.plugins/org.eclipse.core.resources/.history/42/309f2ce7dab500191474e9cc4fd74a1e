@@ -1,0 +1,44 @@
+package webtest;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class ContinueCase {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriver driver = new MyChromeDriver("a5a5551d4bc81a628221c0492410dbd7", "http://localhost:25965");
+		WebElement e1 =	driver.findElement(By.id("kw"));
+		e1.clear();
+		e1.sendKeys("调试");
+
+		driver.findElement(By.className("soutu-btn")).click();
+		//upload-pic
+//		WebDriverWait wait = new WebDriverWait(driver, 10);
+//		wait.until(ExpectedConditions.elementToBeClickable(By.tagName("upload-pic")));
+//		driver.findElement(By.className("upload-pic")).click();
+		
+//		new WebDriverWait(driver, 15).
+//		until( ExpectedConditions.presenceOfElementLocated(By.cssSelector("css locator")));
+
+		WebElement ele = (new WebDriverWait( driver, 10)) .until(
+				new ExpectedCondition< WebElement>(){
+//					@Override
+					public WebElement apply( WebDriver d) {
+						return d.findElement( By.className("upload-text"));
+					}
+				}
+				);
+		System.out.println("______:"+ele.getText());
+				
+				
+				
+		
+		
+	}
+
+}
